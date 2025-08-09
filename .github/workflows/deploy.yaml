@@ -7,11 +7,11 @@ jobs:
     deploy-demos:
         runs-on: ubuntu-latest
         steps:
-            uses: actions/checkout@v4
-            run: echo "Hacemos pull del codigo"
-            run: echo "Correr migraciones"
-            run: echo "Generar binario"
-            run: echo "Publicar version"
+            - uses: actions/checkout@v4
+            - run: echo "Hacemos pull del codigo"
+            - run: echo "Correr migraciones"
+            - run: echo "Generar binario"
+            - run: echo "Publicar version"
 
 
 
